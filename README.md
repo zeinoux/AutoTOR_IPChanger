@@ -1,6 +1,6 @@
 # Auto TOR IPChanger
 
-Change your IP Addresse with tor based project and greatfull interactive CLI interface with Python3. This repo is adopted from [https://github.com/FDX100/Auto_Tor_IP_changer](https://github.com/FDX100/Auto_Tor_IP_changer)
+Change your IP Addresses automatically with tor based project and greatfull interactive CLI interface with Python3. This repo is adopted from [https://github.com/FDX100/Auto_Tor_IP_changer](https://github.com/FDX100/Auto_Tor_IP_changer)
 
 
 # Installation
