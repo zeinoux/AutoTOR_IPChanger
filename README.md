@@ -13,7 +13,7 @@ Change your IP Addresses automatically with tor based project and greatfull inte
  3. Python3 requests socks module : ***pip3 install requests[socks]***
  
 
-## Using
+## Usage
  - cd AutoTOR_IPChanger/
  - sudo python3 TORChanger.py -h (must root)
  
@@ -21,5 +21,7 @@ Change your IP Addresses automatically with tor based project and greatfull inte
 '-t' time to change Ip in Sec [type=60]  
 '-c' how many time do you want to change your ip [type=1000]  
 for infinte ip change type [0]
- - Example : ***sudo python3 TORChanger.  
-py -t 10 -c 10***
+ - Example : ***sudo python3 TORChanger.py -t 10 -c 10***
+ 
+ ## Lisence
+ GNU v3 [License](https://raw.githubusercontent.com/zeinoux/AutoTOR_IPChanger/master/LICENSE)
