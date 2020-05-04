@@ -5,7 +5,12 @@ import os
 import requests
 #os.system("clear") <== commented, it's screw up me @_@
 
-os.system("service tor start")
+def root_check():
+    if not os.getuid()==0:
+        print("Need Permission root for running this script!")
+        sys.exit(1)
+    else:
+        os.system("service tor start")
 
 def help_args():
     args = sys.argv[1:]
@@ -71,6 +76,7 @@ def change(): ## this function on the top of line in older version
 
 
 if __name__ == "__main__": # It's as if the interpreter inserts this at the top of your module when run as the main program.
+    root_check()
     main(sys.argv[1:])
 
 ## Argument parsing reference link: https://www.tutorialspoint.com/python/python_command_line_arguments.htm
